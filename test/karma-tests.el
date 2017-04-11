@@ -35,7 +35,6 @@
 ;;; Code:
 
 (require 'ert)
-(require 'test-helper)
 
 (ert-deftest test-karma-project-root/npm-file-exists ()
   (within-sandbox "lib/npm"

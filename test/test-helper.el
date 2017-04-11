@@ -13,5 +13,3 @@
      (f-mkdir karma-sandbox-path)
      ,@body
      (f-delete karma-sandbox-path :force)))
-
-(provide 'test-helper)
